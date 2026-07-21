@@ -1,6 +1,9 @@
 {
-    "generated_at": "2026-07-21 11:31:00",
+    "generated_at": "2026-07-22 02:54:52",
     "generator": "Hermes Marketing Agent",
-    "video_type": "Marketing Advertisement",
-    "status": "READY_FOR_RENDER"
+    "renderer": "Remotion",
+    "engine": "OpenMontage",
+    "video": "C:\\Users\\Lenovo\\Desktop\\Hermes Marketing agent-AI\\outputs\\videos\\output.mp4",
+    "props": "C:\\Users\\Lenovo\\Desktop\\Hermes Marketing agent-AI\\outputs\\videos\\props.json",
+    "status": "SUCCESS"
 }
