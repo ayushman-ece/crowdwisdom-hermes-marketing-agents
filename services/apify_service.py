@@ -1,0 +1,58 @@
+from services.logger import logger
+
+
+class ApifyService:
+
+    def __init__(self):
+        pass
+
+    def search_ads(self, keyword: str):
+
+        logger.info(f"Searching Meta Ads for: {keyword}")
+
+        ads = [
+            {
+                "pageName": "Nike India",
+                "adHeadline": f"{keyword} - Just Do It",
+                "adBody": "Premium quality sportswear with free shipping.",
+                "cta": "Shop Now",
+                "likes": 12453,
+                "platform": "Facebook"
+            },
+            {
+                "pageName": "Adidas",
+                "adHeadline": f"Best {keyword} Collection",
+                "adBody": "Discover our newest arrivals with exclusive offers.",
+                "cta": "Learn More",
+                "likes": 9632,
+                "platform": "Instagram"
+            },
+            {
+                "pageName": "Puma",
+                "adHeadline": f"{keyword} Sale",
+                "adBody": "Flat 40% off for a limited time.",
+                "cta": "Buy Now",
+                "likes": 8012,
+                "platform": "Facebook"
+            },
+            {
+                "pageName": "Reebok",
+                "adHeadline": "Train Better",
+                "adBody": "High-performance products for every athlete.",
+                "cta": "Shop",
+                "likes": 6500,
+                "platform": "Instagram"
+            },
+            {
+                "pageName": "Under Armour",
+                "adHeadline": "Performance Starts Here",
+                "adBody": "Gear designed for champions.",
+                "cta": "Explore",
+                "likes": 5300,
+                "platform": "Facebook"
+            }
+        ]
+
+        logger.info(f"{len(ads)} ads found.")
+
+        return ads

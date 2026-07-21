@@ -1,0 +1,11 @@
+hermes-agent
+python-dotenv
+requests
+apify-client
+python-telegram-bot
+pydantic
+rich
+colorama
+tqdm
+moviepy
+openai

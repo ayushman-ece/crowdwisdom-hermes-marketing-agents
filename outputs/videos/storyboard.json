@@ -1,0 +1,26 @@
+{
+    "title": "CrowdWisdom Trading Advertisement",
+    "duration": "45 seconds",
+    "scenes": [
+        {
+            "scene": 1,
+            "duration": "5 sec",
+            "description": "Hook the viewer with losing trades."
+        },
+        {
+            "scene": 2,
+            "duration": "10 sec",
+            "description": "Show market confusion and frustration."
+        },
+        {
+            "scene": 3,
+            "duration": "20 sec",
+            "description": "Introduce CrowdWisdom Trading AI solution."
+        },
+        {
+            "scene": 4,
+            "duration": "10 sec",
+            "description": "Strong CTA and logo animation."
+        }
+    ]
+}

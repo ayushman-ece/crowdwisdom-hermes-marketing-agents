@@ -1,0 +1,9 @@
+{
+    "engine": "OpenMontage",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "duration": 45,
+    "voice": "English Male",
+    "music": "Motivational",
+    "status": "READY"
+}
